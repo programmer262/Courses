@@ -105,27 +105,7 @@
     // Initial/first page rendering
     renderPage(pageNum);
   });
-  pdfjsLib.getDocument(url1).promise.then(function(pdfDoc_) {
-    pdfDoc = pdfDoc_;
-    document.getElementById('page_count').textContent = pdfDoc.numPages;
 
-    // Initial/first page rendering
-    renderPage(pageNum);
-  });
-  pdfjsLib.getDocument(url2).promise.then(function(pdfDoc_) {
-    pdfDoc = pdfDoc_;
-    document.getElementById('page_count').textContent = pdfDoc.numPages;
-
-    // Initial/first page rendering
-    renderPage(pageNum);
-  });
-  pdfjsLib.getDocument(url3).promise.then(function(pdfDoc_) {
-    pdfDoc = pdfDoc_;
-    document.getElementById('page_count').textContent = pdfDoc.numPages;
-
-    // Initial/first page rendering
-    renderPage(pageNum);
-  });
 </script>
 
 
